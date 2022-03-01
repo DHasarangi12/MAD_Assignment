@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shopping.e_commerce"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.0.3] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\1205d637188b8a09b21bc64f4ff5d382\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:20.0.3] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\1205d637188b8a09b21bc64f4ff5d382\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\028213cfdf694e4b3c65f4e9d500a310\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\028213cfdf694e4b3c65f4e9d500a310\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+17-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\a5e9dee3a2a1dfc04c5053b968827dff\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\a5e9dee3a2a1dfc04c5053b968827dff\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+19
+20    <application
+20-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:7:5-23:19
+21        android:allowBackup="true"
+21-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\dc8fb9903982a825301e97a53b62af23\core-1.3.1\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:9:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:10:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:11:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:13:9-40
+31        <activity android:name="com.shopping.e_commerce.ui.buyitem" />
+31-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:14:9-57
+31-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:14:19-45
+32        <activity android:name="com.shopping.e_commerce.ui.showitem" />
+32-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:15:9-49
+32-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:15:19-46
+33        <activity android:name="com.shopping.e_commerce.ui.MainActivity" >
+33-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:16:9-22:20
+33-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:16:19-50
+34            <intent-filter>
+34-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:17:13-21:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:18:17-69
+35-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:18:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:20:17-77
+37-->C:\Users\wathsalasww\Desktop\E-commerce-App-master\app\src\main\AndroidManifest.xml:20:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\56fffbe677c35b32ce6e13df925ed87a\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:12:9-18:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\56fffbe677c35b32ce6e13df925ed87a\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:13:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\56fffbe677c35b32ce6e13df925ed87a\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:14:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\56fffbe677c35b32ce6e13df925ed87a\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:15:13-17:85
+46                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+46-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\56fffbe677c35b32ce6e13df925ed87a\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:16:17-126
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-firestore-ktx:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\56fffbe677c35b32ce6e13df925ed87a\jetified-firebase-firestore-ktx-24.0.1\AndroidManifest.xml:17:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\f53f4d7994609c2d03f5cf825765fa59\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+49                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+49-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\f53f4d7994609c2d03f5cf825765fa59\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\f53f4d7994609c2d03f5cf825765fa59\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-database:20.0.3] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\1205d637188b8a09b21bc64f4ff5d382\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+52-->[com.google.firebase:firebase-database:20.0.3] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\1205d637188b8a09b21bc64f4ff5d382\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-database:20.0.3] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\1205d637188b8a09b21bc64f4ff5d382\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\52eed5f256ff62279220d0b59b6f146a\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+55                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+55-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\52eed5f256ff62279220d0b59b6f146a\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\52eed5f256ff62279220d0b59b6f146a\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\445ac63c52668eea046032c39d8e3045\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+58                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+58-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\445ac63c52668eea046032c39d8e3045\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\445ac63c52668eea046032c39d8e3045\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+60            <meta-data
+60-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\028213cfdf694e4b3c65f4e9d500a310\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:30:13-32:85
+61                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+61-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\028213cfdf694e4b3c65f4e9d500a310\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:31:17-139
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\028213cfdf694e4b3c65f4e9d500a310\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:32:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\b03a56680de6252151ca2c06e8d74733\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+64                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+64-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\b03a56680de6252151ca2c06e8d74733\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\b03a56680de6252151ca2c06e8d74733\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+66        </service>
+67
+68        <provider
+68-->[com.squareup.picasso:picasso:2.71828] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\cadde584115e15ca1aa1ae55e5485777\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+69            android:name="com.squareup.picasso.PicassoProvider"
+69-->[com.squareup.picasso:picasso:2.71828] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\cadde584115e15ca1aa1ae55e5485777\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+70            android:authorities="com.shopping.e_commerce.com.squareup.picasso"
+70-->[com.squareup.picasso:picasso:2.71828] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\cadde584115e15ca1aa1ae55e5485777\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+71            android:exported="false" />
+71-->[com.squareup.picasso:picasso:2.71828] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\cadde584115e15ca1aa1ae55e5485777\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+72        <provider
+72-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+73            android:name="com.google.firebase.provider.FirebaseInitProvider"
+73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+74            android:authorities="com.shopping.e_commerce.firebaseinitprovider"
+74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+76            android:exported="false"
+76-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+77            android:initOrder="100" />
+77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c0bd419285647331fa43f983ed402eb7\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+78
+79        <receiver
+79-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:29:9-33:20
+80            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+80-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:30:13-85
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:31:13-35
+82            android:exported="false" >
+82-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:32:13-37
+83        </receiver>
+84
+85        <service
+85-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:35:9-38:40
+86            android:name="com.google.android.gms.measurement.AppMeasurementService"
+86-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:36:13-84
+87            android:enabled="true"
+87-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:37:13-35
+88            android:exported="false" />
+88-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:38:13-37
+89        <service
+89-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:39:9-43:72
+90            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+90-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:40:13-87
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:41:13-35
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:42:13-37
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\d3a7bb44f47e69f19b3c7b8e914cb9d1\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:43:13-69
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\071edf4f25afa8499bdfc0df4f3336a8\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\071edf4f25afa8499bdfc0df4f3336a8\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\071edf4f25afa8499bdfc0df4f3336a8\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\071edf4f25afa8499bdfc0df4f3336a8\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c44e6584a7f34e6caf644ed575be6d38\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c44e6584a7f34e6caf644ed575be6d38\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\c44e6584a7f34e6caf644ed575be6d38\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+103
+104        <provider
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\ae8d7f48901595a5e0dcd0787d0eb858\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+105            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\ae8d7f48901595a5e0dcd0787d0eb858\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+106            android:authorities="com.shopping.e_commerce.lifecycle-process"
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\ae8d7f48901595a5e0dcd0787d0eb858\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+107            android:exported="false"
+107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\ae8d7f48901595a5e0dcd0787d0eb858\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+108            android:multiprocess="true" />
+108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\wathsalasww\.gradle\caches\transforms-2\files-2.1\ae8d7f48901595a5e0dcd0787d0eb858\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+109    </application>
+110
+111</manifest>

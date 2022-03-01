@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">581458827716-adtdu0g6725qhbb1qin9hdgbomtq7qfs.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">581458827716</string>
+    <string name="google_api_key" translatable="false">AIzaSyAtM6OGoGlCWJ1YTXKl4xjV391vBIATKh0</string>
+    <string name="google_app_id" translatable="false">1:581458827716:android:27ecc9a7ad4b62df596c91</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAtM6OGoGlCWJ1YTXKl4xjV391vBIATKh0</string>
+    <string name="google_storage_bucket" translatable="false">wellco-2d204.appspot.com</string>
+    <string name="project_id" translatable="false">wellco-2d204</string>
+</resources>

@@ -1,0 +1,2 @@
+com/shopping/e_commerce/BuildConfig.java
+ com.shopping.e_commerce.BuildConfig
