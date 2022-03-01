@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581458827716",
+    "project_id": "wellco-2d204",
+    "storage_bucket": "wellco-2d204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581458827716:android:27ecc9a7ad4b62df596c91",
+        "android_client_info": {
+          "package_name": "com.shopping.e_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581458827716-o3uofi1e4ggaksqsbd9thuflclc6pl09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopping.e_commerce",
+            "certificate_hash": "e483624aa0ad459d5ecf6751e1fbfac31bf24bd2"
+          }
+        },
+        {
+          "client_id": "581458827716-adtdu0g6725qhbb1qin9hdgbomtq7qfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtM6OGoGlCWJ1YTXKl4xjV391vBIATKh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581458827716-adtdu0g6725qhbb1qin9hdgbomtq7qfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
