@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-commerce</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="hint_enterUserName">User Name...</string>
+    <string name="password">Password</string>
+    <string name="txt_powered_by">Powered By</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
