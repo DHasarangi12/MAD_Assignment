@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr"
+    tools:context=".ui.homeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Hi John," />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginTop="13dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btnLogin"
+                style="@style/ThemeOverlay.MaterialComponents.Light"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/kk3"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_baseline_format_list_bulleted_24">
+
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/search_items"
+                android:layout_width="270dp"
+                android:layout_height="38dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/kk3"
+                android:backgroundTint="#54D3D1D1"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="-170dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Search"
+                android:textColor="#656262"
+                android:textSize="18dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/home_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:radius="15dp"
+                android:text="Home"
+                android:textColor="#FFF"
+                android:textSize="12sp"
+                app:rippleColor="#8BC34A" />
+
+            <Button
+                android:id="@+id/packpack"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#1397D3"
+                android:text="Fresh"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/shoe"
+                android:layout_width="90dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#1397D3"
+                android:text="Sweet"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/shoe3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#1397D3"
+                android:text="Dairy"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
